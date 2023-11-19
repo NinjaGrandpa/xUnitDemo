@@ -4,7 +4,7 @@ public class Calculator : ICalculator
 {
     public decimal Add(decimal a, decimal b)
     {
-        return 3;
+        return a + b;
     }
 
     public decimal Subtract(decimal a, decimal b)
@@ -14,7 +14,7 @@ public class Calculator : ICalculator
 
     public decimal Multiply(decimal a, decimal b)
     {
-        throw new NotImplementedException();
+        return a * b;
     }
 
     public decimal Divide(decimal a, decimal b)
